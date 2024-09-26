@@ -1,0 +1,56 @@
+/* src/App.css */
+
+.patient-list {
+  margin-top: 20px;
+}
+
+.patient-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.patient-list th, .patient-list td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.patient-list th {
+  background-color: #f2f2f2;
+}
+
+.edit-form {
+  margin-top: 20px;
+}
+
+.edit-form input {
+  margin-right: 10px;
+}
+
+.bg-blue{
+  background-color: '#0d6efd' 
+}
+
+.image-scroll {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+  height: 400px; /* Adjust height as needed */
+  padding: 10px;
+}
+
+.image-scroll img {
+  margin-bottom: 10px; /* Space between images */
+  transition: transform 0.2s; /* Animation effect */
+}
+
+.image-scroll img:hover {
+  transform: scale(1.05); /* Zoom effect on hover */
+}
+.logout-button {
+  color: red; /* Change text color to red */
+  background: none; /* Remove background */
+  border: none; /* Remove border */
+  padding: 0; /* Remove padding */
+  cursor: pointer; /* Change cursor to pointer */
+}

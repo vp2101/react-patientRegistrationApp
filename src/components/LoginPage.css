@@ -1,0 +1,8 @@
+.container-fluid {
+  height: 100vh; /* Full height for the viewport */
+}
+
+.login-form {
+  width: 100%; /* Full width of the left half */
+  padding: 2rem; /* Padding for aesthetics */
+}
